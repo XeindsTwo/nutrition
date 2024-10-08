@@ -1,0 +1,36 @@
+.btn {
+  padding: 18px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--grey-15);
+  background-color: var(--green-70);
+  border: 1px solid transparent;
+  transition: background-color .4s, border .4s, color .4s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: var(--green-70);
+}
+
+.btn:focus {
+  background-color: var(--dark-green-15);
+  color: var(--white);
+  border-color: transparent;
+}
+
+.btn--green-95 {
+  background-color: var(--green-95);
+  border-color: var(--green-85);
+}
+
+.btn--green-95:hover {
+  border-color: var(--dark-green-20);
+  background-color: var(--green-95);
+}
+
+.btn--green-95:focus {
+  background-color: var(--dark-green-30);
+  color: var(--white);
+  border-color: transparent;
+}
