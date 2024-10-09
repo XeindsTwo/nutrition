@@ -1,17 +1,29 @@
+.home {
+  position: relative;
+}
+
 .home__inner {
+  min-height: 770px;
+  position: relative;
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
 .home__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48.5%;
   object-fit: cover;
   object-position: center;
   border-radius: 0 0 50px 0;
 }
 
 .home__content {
-  max-width: 760px;
+  position: relative;
+  margin-left: auto;
+  max-width: 49%;
 }
 
 .home__subtitle {
