@@ -1,4 +1,6 @@
 .btn {
+  display: flex;
+  max-width: max-content;
   padding: 18px 24px;
   border-radius: 8px;
   font-weight: 600;
