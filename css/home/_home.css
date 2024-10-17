@@ -14,7 +14,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 48.5%;
+  width: 49.5%;
   object-fit: cover;
   object-position: center;
   border-radius: 0 0 50px 0;
@@ -23,7 +23,7 @@
 .home__content {
   position: relative;
   margin-left: auto;
-  max-width: 49%;
+  max-width: 48%;
 }
 
 .home__subtitle {
@@ -33,7 +33,7 @@
   font-weight: 600;
   padding-bottom: 6px;
   border-bottom: 3px solid var(--green-70);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .home__title {

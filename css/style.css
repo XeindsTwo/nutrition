@@ -5,5 +5,7 @@
 
 @import "components/_header.css";
 @import "components/_btn.css";
+@import "components/_title-section.css";
 
 @import "home/_home.css";
+@import "home/_features.css";

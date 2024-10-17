@@ -1,0 +1,12 @@
+.title-section {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--grey-15);
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto 20px;
+}
+
+.title-section--small-bottom {
+  margin: 0 auto 10px;
+}
