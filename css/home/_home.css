@@ -2,14 +2,6 @@
   position: relative;
 }
 
-.home__inner {
-  min-height: 770px;
-  position: relative;
-  display: flex;
-  gap: 50px;
-  align-items: center;
-}
-
 .home__img {
   position: absolute;
   left: 0;
@@ -20,8 +12,13 @@
   border-radius: 0 0 50px 0;
 }
 
+.home__inner {
+  min-height: 770px;
+  display: flex;
+  align-items: center;
+}
+
 .home__content {
-  position: relative;
   margin-left: auto;
   max-width: 48%;
 }
