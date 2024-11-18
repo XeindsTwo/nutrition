@@ -1,0 +1,123 @@
+.blog__subtext {
+  margin: 0 auto 80px;
+  max-width: 1000px;
+  text-align: center;
+  color: var(--grey-20);
+}
+
+.blog__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.blog__card {
+  padding: 40px;
+  background-color: var(--green-95);
+  border: 1px solid var(--green-85);
+  border-radius: 12px;
+}
+
+.blog__img {
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 40px;
+  border-radius: 12px;
+}
+
+.blog__hashtag {
+  color: var(--grey-20);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.blog__link {
+  color: var(--grey-15);
+  font-weight: 600;
+  font-size: 26px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  max-width: max-content;
+  margin-bottom: 30px;
+  transition: color .4s, border .4s;
+}
+
+.blog__link:hover {
+  color: var(--dark-green-40);
+}
+
+.blog__link:focus {
+  color: var(--dark-green-40);
+  border-color: var(--dark-green-40);
+}
+
+.blog__description {
+  color: var(--grey-30);
+  margin-bottom: 30px;
+}
+
+.blog__author {
+  padding: 20px;
+  background-color: var(--grey-99);
+  border: 1px solid var(--green-80);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.blog__info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 515px;
+  width: 100%;
+}
+
+.blog__author {
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog__name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark-green-15);
+}
+
+.blog__date {
+  color: var(--grey-35);
+}
+
+.blog__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.blog__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: var(--green-95);
+  border: 1px solid var(--green-80);
+  transition: background-color .4s, border .4s;
+}
+
+.blog__btn:hover {
+  background-color: var(--green-80);
+  border-color: transparent;
+}
+
+.blog__btn:focus {
+  background-color: var(--dark-green-25);
+  border-color: transparent;
+}
+
+.blog__btn:focus svg path {
+  stroke: var(--white);
+}
