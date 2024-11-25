@@ -12,6 +12,8 @@
 }
 
 .blog__card {
+  display: flex;
+  flex-direction: column;
   padding: 40px;
   background-color: var(--green-95);
   border: 1px solid var(--green-85);
@@ -58,6 +60,7 @@
 }
 
 .blog__author {
+  margin-top: auto;
   padding: 20px;
   background-color: var(--grey-99);
   border: 1px solid var(--green-80);

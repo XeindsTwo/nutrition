@@ -1,0 +1,122 @@
+.pricing__top {
+  margin-bottom: 80px;
+}
+
+.pricing__subtext {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing__buttons {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid var(--green-80);
+  border-radius: 8px;
+  margin: 0 auto 14px;
+  max-width: max-content;
+}
+
+.pricing__btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.pricing__btn:hover {
+  border-color: var(--dark-green-15);
+  color: var(--black);
+}
+
+.pricing__btn:focus {
+  background-color: var(--dark-green-40);
+  border-color: transparent;
+  color: var(--white);
+}
+
+.pricing__btn--active {
+  background-color: var(--dark-green-20);
+  color: var(--white);
+  pointer-events: none;
+}
+
+.pricing__discount {
+  max-width: 310px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.pricing__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.pricing__card {
+  border-radius: 12px;
+  padding: 50px;
+  background-color: var(--green-95);
+  border: 1px solid var(--green-80);
+}
+
+.pricing__name {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--grey-15);
+  margin-bottom: 3px;
+}
+
+.pricing__great, .pricing__text {
+  margin-bottom: 40px;
+}
+
+.pricing__great {
+  color: var(--grey-30);
+}
+
+.pricing__text {
+  color: var(--grey-15);
+}
+
+.pricing__price {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 35px;
+}
+
+.pricing__total {
+  line-height: 87.5%;
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--dark-green-25);
+}
+
+.pricing__date {
+  color: var(--grey-20);
+}
+
+.pricing__choose {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: var(--grey-15);
+  border: 1px solid transparent;
+  background-color: var(--green-70);
+  transition: background-color .4s, color .4s, border .4s;
+}
+
+.pricing__choose:hover {
+  background-color: var(--dark-green-40);
+  color: var(--white);
+}
+
+.pricing__choose:focus {
+  background-color: transparent;
+  border-color: var(--dark-green-20);
+  color: var(--grey-15);
+}
